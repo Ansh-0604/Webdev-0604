@@ -1,0 +1,42 @@
+body{
+    background-color: gainsboro;
+    margin: 0;
+    padding: 0;
+    }
+    nav {
+        border-bottom-width: 2px;
+        border-bottom-color: #ccc;
+        border-bottom-style: solid;
+        padding: 10px;
+        background-color: #fff;
+        font-family: 'Shrikhand', cursive;
+      }
+     
+    .left{
+        height: 300px;
+        display: inline block;
+        background-color: white;
+        width: 200px;
+        
+    }
+   
+    .space{
+        padding: 10px;
+        border: 2px solid black;
+        width: 200px;
+        text-align: center;
+        
+    }
+    .footer{
+        background-color: black;
+        color: white;
+        height: 200px;
+        border: 0;
+    }
+    table tr:hover {
+        background-color: #ccc;
+    }
+    table tr:hover td:hover{
+        background-color: black;
+        color: white;
+    }
